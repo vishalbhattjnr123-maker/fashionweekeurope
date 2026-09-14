@@ -26,7 +26,7 @@ export default function FashionWeek() {
                         >
                             <div className="w-full md:w-3/5 overflow-hidden relative group">
                                 <div className="aspect-[4/3] w-full bg-brand-beige overflow-hidden">
-                                    <img
+                                    <img loading="lazy"
                                         src={event.image}
                                         alt={event.title}
                                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"

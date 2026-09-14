@@ -53,7 +53,7 @@ export default function Navbar() {
                 <div className="container mx-auto px-6 flex items-center justify-between">
                     <Link to="/" className="z-50 block">
                         <img
-                            src="/logo.png"
+                            src="/logo.webp"
                             alt="Fashion Week Europe Logo"
                             className={clsx(
                                 "w-auto object-contain transition-all duration-300 transform origin-left",

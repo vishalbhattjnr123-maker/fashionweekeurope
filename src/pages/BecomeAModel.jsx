@@ -59,8 +59,8 @@ Thank you.`;
         <div className="bg-white min-h-screen pb-32">
             {/* Top Banner Image */}
             <div className="w-full h-[50vh] md:h-[65vh] relative pt-20">
-                <img
-                    src="/images/9744.jpg"
+                <img loading="lazy"
+                    src="/images/9744.webp"
                     alt="Become a Model"
                     className="w-full h-full object-cover object-top"
                 />

@@ -7,8 +7,8 @@ export default function Portfolio() {
         <div className="bg-brand-offwhite min-h-screen pb-24">
             {/* Hero Banner */}
             <div className="w-full h-[50vh] md:h-[65vh] relative mb-16 lg:mb-24">
-                <img
-                    src="/images/183436.jpg"
+                <img loading="lazy"
+                    src="/images/183436.webp"
                     alt="Portfolio"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                 />

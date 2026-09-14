@@ -13,7 +13,7 @@ export default function ModelProfile() {
             <div className="flex flex-col lg:flex-row min-h-[90vh]">
                 {/* Left: Image */}
                 <div className="lg:w-1/2 relative h-[60vh] lg:h-auto">
-                    <img
+                    <img loading="lazy"
                         src={model.image}
                         alt={model.name}
                         className="absolute inset-0 w-full h-full object-cover"
@@ -69,7 +69,7 @@ export default function ModelProfile() {
                                 href={`https://wa.me/${CONTACT_CONFIG.whatsapp}`} target="_blank" rel="noreferrer"
                                 className="border border-brand-black px-8 py-4 text-center uppercase tracking-widest text-xs font-bold hover:bg-brand-black hover:text-white transition-colors flex justify-center items-center gap-2"
                             >
-                                <img src="/icons/whatsapp.svg" alt="WhatsApp" className="w-4 h-4 opacity-70" onError={(e) => e.target.style.display = 'none'} /> WhatsApp Us
+                                <img loading="lazy" src="/icons/whatsapp.svg" alt="WhatsApp" className="w-4 h-4 opacity-70" onError={(e) => e.target.style.display = 'none'} /> WhatsApp Us
                             </a>
                         </div>
                     </div>

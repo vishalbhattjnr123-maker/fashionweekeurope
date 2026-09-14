@@ -18,7 +18,7 @@ export default function Home() {
         <div className="w-full">
             {/* Hero Section */}
             <section className="relative w-full h-[90vh] md:h-screen lg:h-[100vh]">
-                <img
+                <img loading="lazy"
                     src={selectedImages.hero}
                     alt="Fashion Week Europe Hero"
                     className="absolute inset-0 w-full h-full object-cover object-[50%_20%]"

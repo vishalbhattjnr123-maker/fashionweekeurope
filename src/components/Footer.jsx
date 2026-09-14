@@ -10,8 +10,8 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-20">
 
                     <div className="lg:col-span-1 border-b pb-8 lg:pb-0 lg:border-b-0 border-white/20">
-                        <img
-                            src="/logo.png"
+                        <img loading="lazy"
+                            src="/logo.webp"
                             alt="Fashion Week Europe Logo"
                             className="h-12 w-auto object-contain mb-6 filter drop-shadow-md brightness-110"
                         />
@@ -66,7 +66,7 @@ export default function Footer() {
                                 Call Us: {CONTACT_CONFIG.displayPhone}
                             </a>
                             <a href={`https://wa.me/${CONTACT_CONFIG.whatsapp}`} target="_blank" rel="noreferrer" className="flex items-center space-x-2 text-sm uppercase tracking-widest hover:text-brand-gold transition-colors text-white w-fit">
-                                <img src="/icons/whatsapp.svg" alt="WhatsApp" className="w-4 h-4 opacity-70" onError={(e) => e.target.style.display = 'none'} />
+                                <img loading="lazy" src="/icons/whatsapp.svg" alt="WhatsApp" className="w-4 h-4 opacity-70" onError={(e) => e.target.style.display = 'none'} />
                                 <span>WhatsApp Us &rarr;</span>
                             </a>
                         </div>

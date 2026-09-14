@@ -120,7 +120,7 @@ Thank you.`;
         <div className="bg-white min-h-screen pb-32">
             {/* Top Banner Image */}
             <div className="w-full h-[50vh] md:h-[65vh] relative pt-20">
-                <img
+                <img loading="lazy"
                     src={selectedImages.contact}
                     alt="Contact"
                     className="w-full h-full object-cover object-center"

@@ -17,7 +17,7 @@ export default function ModelDiscoveryCTA() {
                             className="w-full max-w-md aspect-[3/4] overflow-hidden"
                         >
                             <img
-                                src="/images/4101434.jpg"
+                                src="/images/4101434.webp"
                                 alt="Become a Model"
                                 className="w-full h-full object-cover"
                                 loading="lazy"

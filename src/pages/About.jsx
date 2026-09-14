@@ -5,7 +5,7 @@ export default function About() {
         <div className="bg-brand-offwhite">
             {/* Hero Section */}
             <section className="relative w-full h-[70vh] flex items-center justify-center">
-                <img
+                <img loading="lazy"
                     src={selectedImages.about}
                     alt="About Fashion Week Europe"
                     className="absolute inset-0 w-full h-full object-cover"
@@ -39,7 +39,7 @@ export default function About() {
                         </p>
                     </div>
                     <div className="w-full lg:w-1/2">
-                        <img
+                        <img loading="lazy"
                             src={selectedImages.aboutFashion}
                             alt="Editorial"
                             className="w-full h-[600px] object-cover"

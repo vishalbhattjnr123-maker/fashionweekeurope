@@ -8,7 +8,7 @@ export default function ProjectDetail() {
     return (
         <div className="bg-white min-h-screen">
             <div className="w-full h-[80vh] relative">
-                <img
+                <img loading="lazy"
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover"
@@ -53,14 +53,14 @@ export default function ProjectDetail() {
             {/* Editorial Image Sequence */}
             <div className="container mx-auto px-6 pb-32">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-                    <img src={selectedImages.projectDetails[0]} alt="Detail 1" className="w-full h-[600px] object-cover" />
-                    <img src={selectedImages.projectDetails[1]} alt="Detail 2" className="w-full h-[600px] object-cover" />
+                    <img loading="lazy" src={selectedImages.projectDetails[0]} alt="Detail 1" className="w-full h-[600px] object-cover" />
+                    <img loading="lazy" src={selectedImages.projectDetails[1]} alt="Detail 2" className="w-full h-[600px] object-cover" />
                 </div>
                 <div className="mb-8 relative h-[80vh]">
-                    <img src={selectedImages.projectDetails[2]} alt="Detail 3" className="w-full h-full object-cover" />
+                    <img loading="lazy" src={selectedImages.projectDetails[2]} alt="Detail 3" className="w-full h-full object-cover" />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <img src={selectedImages.projectDetails[3]} alt="Detail 4" className="w-full h-auto object-cover md:col-span-1" />
+                    <img loading="lazy" src={selectedImages.projectDetails[3]} alt="Detail 4" className="w-full h-auto object-cover md:col-span-1" />
                     <div className="md:col-span-2 bg-brand-offwhite flex items-center justify-center p-12">
                         <h3 className="font-editorial text-4xl leading-relaxed text-center max-w-lg">
                             Redefining boundaries through a lens of classic elegance.
