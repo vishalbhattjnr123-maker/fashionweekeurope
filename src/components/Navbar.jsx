@@ -47,7 +47,7 @@ export default function Navbar() {
             <header
                 className={clsx(
                     'fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out',
-                    (isScrolled || !isHome || isMobileMenuOpen) ? 'bg-brand-offwhite text-brand-black shadow-sm py-4' : 'bg-transparent text-white py-6'
+                    (isScrolled || !isHome || isMobileMenuOpen) ? 'bg-black text-white shadow-sm py-4' : 'bg-transparent text-white py-6'
                 )}
             >
                 <div className="container mx-auto px-6 flex items-center justify-between">
@@ -85,9 +85,7 @@ export default function Navbar() {
                             to="/apply"
                             className={clsx(
                                 'text-xs tracking-widest font-medium uppercase px-5 py-2.5 border transition-all duration-300',
-                                (isScrolled || !isHome || isMobileMenuOpen)
-                                    ? 'border-brand-black hover:bg-brand-black hover:text-white'
-                                    : 'border-white hover:bg-white hover:text-brand-black'
+                                'border-white hover:bg-white hover:text-black'
                             )}
                         >
                             Become a Model
@@ -104,7 +102,7 @@ export default function Navbar() {
                             className="focus:outline-none"
                         >
                             {isMobileMenuOpen ? (
-                                <X size={26} strokeWidth={1.5} className="text-brand-black" />
+                                <X size={26} strokeWidth={1.5} className="text-white" />
                             ) : (
                                 <Menu size={26} strokeWidth={1.5} />
                             )}
